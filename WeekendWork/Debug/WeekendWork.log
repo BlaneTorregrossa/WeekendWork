@@ -1,3 +1,2 @@
 ﻿  Source.cpp
-  WeekendWork.vcxproj -> C:\Users\blane.torregros\documents\visual studio 2015\Projects\WeekendWork\Debug\WeekendWork.exe
-  WeekendWork.vcxproj -> C:\Users\blane.torregros\documents\visual studio 2015\Projects\WeekendWork\Debug\WeekendWork.pdb (Partial PDB)
+c:\users\blane.torregros\documents\visual studio 2015\projects\weekendwork\weekendwork\source.cpp(68): error C2660: 'AllEvenArray': function does not take 0 arguments

@@ -12,6 +12,7 @@ Do not modify class
 
 Problem 4: Using the class created in problem 2 add a function that overloads the == operator that compares if two cats are identical.
 
+Problem 5: Write a function that takes two parameters a pointer to an array and the number of elements then populate the array with all even numbers from 0 - 20, then prints out the values in the array
 */
 
 
@@ -45,7 +46,16 @@ void problem3()
 			}
 		}
 	}
+}
 
+void AllEvenArray(int evenNums[], int size)
+{
+	for (int i = 0; i < 20; i++)
+	{
+		
+
+		
+	}
 }
 
 
@@ -53,4 +63,5 @@ void main()
 {
 	problem1();
 	problem3();
+	AllEvenArray();
 }
