@@ -18,8 +18,15 @@ public:
 	{
 		mName = newname; 
 	}
-	bool operator== (Cat rhs) // Overloading the operator ==
+	//Operator overloading always has to be a booly to work.
+	bool operator== (Cat rhs) 
 	{
-		
+		// Have to make the overload work here.
+		if (mName == rhs.mName && mAge == rhs.mAge)
+		{
+			return true;
+		}
+		return false;
 	}
+
 };
