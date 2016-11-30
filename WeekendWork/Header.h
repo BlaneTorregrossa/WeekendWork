@@ -1,6 +1,6 @@
 #pragma once 
 
-
+//Problem 2: Implement a UML Diagram
 class Cat // Declaring a class of Cat. Evreything in the class is public.
 {
 public:
@@ -18,10 +18,10 @@ public:
 	{
 		mName = newname; 
 	}
+	//Problem 4: Using the class created in problem 2 add a function that overloads the == operator that compares if two cats are identical.
 	//Operator overloading always has to be a booly to work.
 	bool operator== (Cat rhs) 
 	{
-		// Have to make the overload work here.
 		if (mName == rhs.mName && mAge == rhs.mAge)
 		{
 			return true;
